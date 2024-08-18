@@ -9,7 +9,7 @@ function App() {
     
       <div className=" flex justify-around  items-center h-screen bg-gray-400">
         <Link to = "/manualform" className="bg-slate-500 font-semibold rounded-lg p-2 uppercase hover:bg-black hover:text-white mt-5">
-          Manual Form
+          Manual Form Validation
         </Link>
         <Link to= '/withyup'  className="bg-slate-500 font-semibold rounded-lg p-2  hover:bg-black hover:text-white uppercase mt-5">
           YUP Form
