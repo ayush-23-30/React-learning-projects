@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+    background: rgb(159, 217, 159);
+    height: 870px;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#arena {
+    height: 750px;
+    width: 90vw;
+    background-color: rgb(196, 224, 155);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.head {
+    height: 100px;
+    background: #64cf9c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: forestgreen;
+    font-size: 20px;
+    background-color: #fff;
+}
+ /* main gaming area  */
+
+ .area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+ }
+
+ .bubble{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+ }
+ #game {
+    text-align: center;    
+    position: relative;
+    top: 300px;
+ }
