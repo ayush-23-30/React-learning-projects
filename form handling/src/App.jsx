@@ -24,7 +24,7 @@ function App() {
         </div>
 
         {/* This div centers the form in the middle of the page */}
-        <div className="flex flex-col items-center justify-center mt-10 w-full">
+        <div className="flex flex-col items-center justify-center my-10 w-full">
           <Outlet />
         </div>
       </div>
